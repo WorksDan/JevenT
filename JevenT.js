@@ -275,16 +275,15 @@ function repInp(ToBeReplicated, displayRep) {
   }
 }
 
-// var suggestions = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'] + 1;
-// var newSugg = this.suggestions[10] = 'eleven';
-// console.log(newSugg);
 
-// let btn = document.getElementById('btn')
-// btn.onclick = () => {
-//   var x = docuument.getElementById('inp');
-//   if (x === NaN) {
-//     console.log(x + " is not a number");
-//   } else {
-//     console.log(x + " is a number");
-//   }
-// }
+function counterJs(TheId,YourNum){
+let counts = setInterval(updated);
+let upto = 0;
+function updated() {
+    var count = document.getElementById(TheId);
+    count.innerHTML = ++upto;
+    if (upto === YourNum) {
+        clearInterval(counts);
+    }
+}
+}
