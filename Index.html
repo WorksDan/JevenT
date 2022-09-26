@@ -1,0 +1,130 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      let script = document.createElement("script");
+      script.src = "JevenT.js";
+      document.head.appendChild(script);
+    </script>
+  </head>
+
+  <body>
+    <h1>Jevent Tester Page</h1>
+
+    <div id="code_body">
+      <input type="text" id="inp" />
+      <input type="text" id="inp2" />
+      <span id="inp"></span>
+      <button id="btn">test</button>
+
+      <!-- <form action="test.php" id="form">
+        <p id="msg"></p>
+        <input type="name" id="nm" name="name" required>
+        <input type="email" id="em" name="mail" required>
+        <input type="password" id="ps" name="pass" required>
+        <button id="sbtn" onclick="formValid('form', 'nm', 'em', 'ps', 'msg')">Submit</button>
+    </form> -->
+
+      <!-- <p>this webpage has <span id="visits"></span> views</p> -->
+      <!-- <input type="text" id="inp" onkeyup="repInp('inp','inptw')" placeholder="inp">
+    <input type="text" id="inptw" placeholder="search here">
+
+    <button id="btn" onclick="thisDate('year')">test</button>
+
+    <input type="text" id="year" placeholder="Year"> -->
+
+      <!-- 
+       <h1>Currency Converter</h1>
+       <p> Select Currency and enter Amount to convert.</p>
+       <form>
+          <label>From:</label>
+          <select id="from">
+             <option value="USD">USD</option>
+             <option value="EUR">EUR</option>
+             <option value="GBP">GBP</option>
+             <option value="INR">INR</option>
+          </select>
+          <label>To:</label>
+          <select id="to">
+             <option value="USD">USD</option>
+             <option value="EUR">EUR</option>
+             <option value="GBP">GBP</option>
+             <option value="INR">INR</option>
+          </select>
+          <label>Amount:</label>
+          <input type="text" id="amount" />
+          <button type="button" id="convert">Convert</button>
+          <p id="result"></p>
+       </form> -->
+
+      <style>
+        input {
+          padding: 10px;
+          border-radius: 0px;
+          border-top: 0px;
+          border-left: 0px;
+          border-right: 0px;
+          border-bottom: 1px solid #000;
+        }
+        input:focus {
+          outline: none;
+          border-radius: 0px;
+        }
+
+        button[type="submit"] {
+          padding: 10px;
+          background-color: #000;
+          margin-top: 9px;
+          border-radius: 0px;
+        }
+
+        button[type="reset"] {
+          padding: 10px;
+          background-color: red;
+          margin-top: 9px;
+          border-radius: 0px;
+        }
+      </style>
+      <div>
+        <h2>Candidate information</h2>
+        <form class="form" action="send" method="get">
+          <input
+            type="text"
+            name="studentID"
+            placeholder="student id"
+            required
+          />
+          <input
+            type="text"
+            name="firstname"
+            placeholder="firstname"
+            required
+          />
+          <input type="text" name="lastname" placeholder="lastname" required />
+          <input type="number" name="age" placeholder="age" required />
+          <input type="text" name="state" placeholder="state" required />
+          <input
+            type="number"
+            name="phoneNumber"
+            placeholder="phone number"
+            required
+          />
+          <input
+            type="date"
+            name="dateOfBirth"
+            placeholder="date of birth"
+            required
+          />
+          <button type="submit">send &rightarrow;</button>
+          <button type="reset">reset &times;</button>
+        </form>
+      </div>
+
+      <!--  -->
+    </div>
+  </body>
+</html>
